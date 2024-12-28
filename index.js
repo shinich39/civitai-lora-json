@@ -20,18 +20,6 @@ const MIN_DOWNLOAD_COUNT = 100;
 // -1: Infinity
 const MAX_COLLECTED_MODEL_COUNT = -1;
 
-const METADATA_KEYS = {
-  // "size": ["Size"], 
-  "pp": ["prompt", "Prompt",],
-  "np": ["negativePrompt", "Negative Prompt",],
-  "seed": ["seed","Seed",],
-  // "clip": ["Clip skip",],
-  "steps": ["steps", "Steps",],
-  "sampler": ["Sampler", "sampler",],
-  // "strength": ["Denoising strength", "Denoising Strength", "denoising strength", "Denoise", "denoise", "Strength", "strength"],
-  "cfg": ["cfgScale", "cfg", "Guidance", "guidance",],
-}
-
 async function getModels(limit, nextPage) {
   const params = new URLSearchParams({
     limit,

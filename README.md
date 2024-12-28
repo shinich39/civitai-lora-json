@@ -1,6 +1,6 @@
 # civitai-lora-json
 
-Collect lora trigger words in civitai
+Collect lora trigger words in civitai.
 
 ## Usage
 
