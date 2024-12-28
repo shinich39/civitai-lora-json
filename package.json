@@ -1,0 +1,26 @@
+{
+  "name": "civitai-lora-json",
+  "version": "1.0.0",
+  "description": "Collect lora trigger words in civitai",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "optimize": "node optimize.js",
+    "pretty": "prettier index.js --write --config .prettierrc.js"
+  },
+  "keywords": [
+    "javascript"
+  ],
+  "author": "shinich39 <shinich39@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "esbuild": "^0.23.0",
+    "prettier": "^3.3.3"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0",
+    "dotenv": "^16.4.7",
+    "moment": "^2.30.1"
+  }
+}
