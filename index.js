@@ -27,14 +27,14 @@ async function getModels(limit, nextPage) {
 
     // query: "DreamShaper",
     
-    sort: "Newest",
+    // sort: "Newest",
     // sort: "Most Downloaded",
-    // sort: "Highest Rated",
+    sort: "Highest Rated",
 
     // period: "AllTime",
     // period: "Year",
     // period: "Month",
-    // period: "Week",
+    period: "Week",
     // period: "Day",
   });
 
